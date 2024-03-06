@@ -57,3 +57,4 @@ df.dtypes
 # df['Time'] = pd.to_datetime(df['Time'], format='%H:%M')
 df.dtypes
 df
+df.set_index("DateTime").between_time("17:00", "9:00").reset_index()
